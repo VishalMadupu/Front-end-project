@@ -1,0 +1,343 @@
+@media screen and (min-width:1024px) {
+
+
+    .container {
+        width: 980px;
+    }
+
+    #red {
+        color: #d25a0a;
+
+        margin-left: 174px;
+    }
+
+}
+
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+
+    .container {
+        width: 100%;
+    }
+
+    .logo {
+        padding-bottom: 29px;
+
+    }
+
+    /* .logo img {
+        width: 100%;
+
+    } */
+
+
+    .login {
+        /* float: none;
+        transform: translate(14%, 10px); */
+        display: block;
+    }
+
+    .login ul {
+
+        display: flex;
+        padding: 0px;
+    }
+
+    .login ul li {
+        display: block;
+        font-size: 20px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+
+
+
+    .nav ul li {
+        display: inline;
+        font-size: 11px;
+    }
+
+
+
+    aside {
+        display: contents;
+    }
+
+
+    .bannercontent p {
+        float: right;
+
+    }
+
+    div#accordion {
+
+        display: grid;
+
+        justify-content: end;
+    }
+
+
+
+    .ui-accordion .ui-accordion-header {
+        width: 200px;
+        margin-left: 13%;
+        padding: 15px 0px;
+    }
+
+    .ui-accordion .ui-accordion-content {
+        background-color: blue;
+        opacity: 0.5;
+        width: 52%;
+        overflow: hidden;
+        margin-left: 0%;
+        width: 149px;
+    }
+
+    .banner {
+
+        padding-bottom: 220px;
+
+    }
+
+
+    .logo2 {
+        display: inline-block;
+        /* justify-content: center; */
+    }
+
+
+    /* .bannercontent p {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    } */
+
+
+    .colum {
+
+        float: left;
+        width: 29%;
+        margin-left: 30px;
+        /* width: 100%; */
+        text-align: center;
+    }
+
+    .slides {
+        max-width: 320px;
+        transform: translate(0px, 5px);
+        margin: 1px;
+    }
+
+    .prev,
+    .next {
+
+        top: -40%;
+    }
+
+
+
+
+    #footimg img {
+        width: 100%;
+    }
+
+    #foot-text {
+
+        padding: 0px;
+    }
+
+    .menu {
+        margin-left: 0px;
+        padding: 19px 0px;
+    }
+
+     #red {
+        color: #d25a0a;
+
+        margin-left: 174px;
+    }
+
+
+}
+
+
+@media screen and (max-width:767px) {
+
+    .container {
+        width: 100%;
+    }
+
+    .logo {
+        padding-bottom: 29px;
+
+    }
+
+    .logo img {
+        width: 100%;
+
+    }
+
+
+    .login {
+        /* float: none;
+        transform: translate(14%, 10px); */
+        display: contents;
+    }
+
+    .login ul {
+
+        display: block;
+        padding: 0px;
+    }
+
+    .login ul li {
+        display: block;
+        font-size: 20px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .container nav ul {
+        /* padding: 0px;
+        margin-bottom: 2px;
+        transform: translate(80%, 10px); */
+        text-align: center;
+    }
+
+
+
+    .nav ul li {
+        display: block;
+        font-size: 20px;
+    }
+
+
+    .banner p {
+        width: 80%;
+        margin-bottom: 129px;
+        position: inherit;
+        left: 17px;
+        top: 49px;
+    }
+
+    aside {
+        display: contents;
+    }
+
+
+    .bannercontent p {
+        float: none;
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    div#accordion {
+        /* margin: 0px -34px; */
+        display: flex;
+        /* position: relative; */
+        /* transform: translate(11%, 10px); */
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+    .ui-accordion .ui-accordion-header {
+        width: 200px;
+        margin-left: 13%;
+        padding: 15px 0px;
+    }
+
+    .ui-accordion .ui-accordion-content {
+        background-color: #336699;
+        opacity: 0.5;
+        width: 52%;
+        overflow: hidden;
+        margin-left: 0%;
+        width: 149px;
+    }
+
+    .banner {
+
+        padding-bottom: 220px;
+
+    }
+
+    .logo2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    #logo2 {
+        margin-left: 0px;
+        padding: 10px;
+    }
+
+    /* .bannercontent p {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    } */
+
+
+    .colum {
+        float: left;
+        width: 29%;
+        margin-left: 0px;
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .slides {
+        max-width: 320px;
+        transform: translate(0px, 5px);
+        margin: 1px;
+    }
+
+    .prev,
+    .next {
+
+        top: -40%;
+    }
+
+    .menu nav ul li {
+
+        display: block;
+        text-align: center;
+    }
+
+    #footimg {
+
+        width: 100%;
+    }
+
+    #footimg img {
+        width: 100%;
+    }
+
+    #foot-text {
+        background-color: #007fc7;
+        padding: 10px;
+    }
+
+    .menu {
+        margin-left: 0px;
+        padding: 19px 0px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #red {
+        color: #d25a0a;
+        margin-left: 0px;
+    }
+
+}

@@ -1,0 +1,482 @@
+.container {
+    max-width: 980px;
+    padding: 0px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.logo {
+    display: contents;
+    padding-bottom: 29px;
+}
+
+
+
+.login {
+
+
+
+    margin-right: 28px;
+    font-family: 'Helvetica LT Std';
+    font-size: 11px;
+    color: #717171;
+    float: right;
+
+}
+
+.login ul li a {
+    font-family: 'Helvetical Tstd Cond';
+    color: #717171;
+    font-size: 11px;
+}
+
+
+li {
+    display: inline-block;
+}
+
+.container nav ul {
+    padding: 0px;
+    margin-bottom: 2px;
+}
+
+
+
+
+
+nav ul li {
+    margin-right: -4px;
+    font-size: 10px;
+    padding: 10px 3px 10px 3px;
+
+}
+
+
+
+li:visited {
+    background-color: #0099cc;
+
+}
+
+a.nav-link {
+    font-size: 13px;
+    color: #0099cc;
+}
+
+a.nav-link:hover,
+a:active {
+    background-color: #0099cc;
+    color: white;
+}
+
+
+a {
+    font-family: 'Helvetical Tstd Cond';
+    text-decoration: none;
+    padding: 12px;
+    margin-left: -7px;
+}
+
+
+.banner {
+    background-image: url('../images/Banner.png');
+    background-size: cover;
+    position: relative;
+    padding-bottom: 440px;
+    background-repeat: no-repeat;
+}
+
+.bannercontent {
+    font-family: 'Helvetica LT Std';
+    border: 2px solid #cccccc;
+    padding: 20px 0px;
+    border-top: none;
+
+}
+
+.logo2 {
+    display: inline;
+}
+
+span.join {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.ui-widget button {
+
+    font-size: 15px;
+    background-color: #0099cc;
+    color: white;
+    /* transform: translate(-9%, 10px); */
+    /* width: 198px; */
+}
+
+
+
+#logo2 {
+    padding: 14px;
+}
+
+.bannercontent p {
+    font-family: 'Times New Roman';
+    float: right;
+    width: 62%;
+}
+
+span,
+.col-4 h3 {
+    color: #268acb;
+}
+
+.bannercontent,
+.row {
+    border: 2px solid #cccccc;
+    padding: 20px 0px;
+    border-top: none;
+    display: inline-block;
+}
+
+#row {
+    display: inline-block;
+    border: 2px solid #c0c0c0;
+    padding: 20px 0px;
+    border-top: none;
+    transform: translate(0px, -5px);
+}
+
+#row p {
+
+    padding-top: 11px;
+    font-size: 14px;
+    font-family: 'Helvetica LT Std';
+
+}
+
+.row ::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.colum {
+    float: left;
+    width: 30%;
+    margin-left: 24px;
+    font-family: Segoe UI;
+}
+
+.colum h3 {
+    color: #007fc7;
+    font-family: Segoe UI;
+    padding-bottom: 20px;
+    font-size: 14px;
+    font-family: 'Helvetical Tstd Cond';
+
+}
+
+.colum p {
+
+    font-size: 13px;
+
+}
+
+.banner p {
+    background-color: #352d59;
+    width: 35%;
+    font-size: 19px;
+    padding: 21px 0px;
+    opacity: 0.8;
+    position: absolute;
+    top: 225px;
+    color: #65c6f3;
+}
+
+
+.btn {
+    background-color: #0066cc;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 1px;
+    display: block;
+    width: 230px;
+    border-radius: 0px;
+}
+
+.slides {
+    max-width: 500px;
+
+    transform: translate(50%, 10px);
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    /* transform: translate(50%, 10px);*/
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: 100px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f200;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+
+button {
+    border-radius: 20px;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+
+
+
+
+
+
+.abovefooter {
+    display: inline-block;
+}
+
+#footimg {
+    width: 42%;
+    float: left;
+}
+
+#footimg img {
+
+    max-width: 390px;
+}
+
+/* #footimg {
+    width: 42%;
+    max-width: 307px;
+} */
+
+#foot-text {
+    font-family: Segan-Light;
+    background-color: #007fc7;
+    padding: 0px 10px;
+}
+
+
+
+#foot-text h4 {
+    font-family: Segan-Light;
+    font-size: 30px;
+    margin: 6px;
+}
+
+#foot-text h5 {
+    font-family: Segan-Light;
+    font-size: 14px;
+    font-family: 'Helvetica LT Std';
+    margin-top: 0px;
+    padding: 13px;
+}
+
+
+#foot-text h5,
+#foot-text h4,
+#foot-text p {
+    color: white;
+    /* padding: 8.6px 0px; */
+    padding: 12.7px 0px;
+    margin: 0px;
+
+}
+
+
+#foot-text h5,
+h4 {
+    font-family: 'Times New Roman';
+}
+
+
+
+
+
+#foot-text p {
+    font-family: 'Segoe UI';
+    font-size: 14px;
+}
+
+
+
+
+
+/* #foot-text h5 {
+    color: white;
+    padding: 16.6px 0px;
+    font-size: 14px;
+    font-family: 'Helvetica LT Std';
+}
+
+
+#foot-text {
+    background-color: #007fc7;
+}
+
+#foot-text h5,
+#foot-text h4,
+#foot-text p {
+    color: white;
+    padding: 2.5px 0px;
+}
+
+#foot-text h5,
+#foot-text p {
+    font-size: 14px;
+    font-family: 'Helvetica LT Std';
+}
+
+#foot-text h4 {
+    font-size: 30px;
+} */
+
+.menu {
+    margin-left: 59px;
+    padding: 19px 0px;
+}
+
+.n {
+    color: #717171;
+    margin-right: 20px;
+    font-size: 11px;
+    font-family: 'Segoe UI';
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.colpara {
+    margin-bottom: 0px;
+}
+
+#colpara2 {
+    margin: 0px;
+    color: #4f8101;
+}
+
+
+.menu nav ul li {
+    margin-right: -12px;
+    font-size: 10px;
+    padding: 10px 0px 10px 0px;
+}
+
+
+aside {
+    width: 230px;
+    float: right;
+}
+
+/*accordian*/
+/* .ui-accordion .ui-accordion-content {
+    background-color: blue;
+    opacity: 0.5;
+    width: 69%;
+    overflow: hidden;
+
+} */
+
+.ui-accordion .ui-accordion-content {
+    background-color: #336699;
+    opacity: 0.5;
+    width: 60%;
+    overflow: hidden;
+    margin-left: 0%;
+    width: 158px;
+}
+
+.ui-accordion .ui-accordion-header {
+
+    background-color: #007fff;
+
+}
